@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADD55DA28703026002B60A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD55D928703026002B60A8 /* AppDelegate.swift */; };
+		FADD55DC28703026002B60A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD55DB28703026002B60A8 /* SceneDelegate.swift */; };
+		FADD55E128703026002B60A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADD55DF28703026002B60A8 /* Main.storyboard */; };
+		FADD55E328703026002B60A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADD55E228703026002B60A8 /* Assets.xcassets */; };
+		FADD55E628703026002B60A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADD55E428703026002B60A8 /* LaunchScreen.storyboard */; };
+		FADD55F128703026002B60A8 /* VetzoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD55F028703026002B60A8 /* VetzoneTests.swift */; };
+		FADD55FB28703026002B60A8 /* VetzoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD55FA28703026002B60A8 /* VetzoneUITests.swift */; };
+		FADD55FD28703026002B60A8 /* VetzoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD55FC28703026002B60A8 /* VetzoneUITestsLaunchTests.swift */; };
+		FADD5610287036AF002B60A8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD560F287036AF002B60A8 /* HomeViewController.swift */; };
+		FADD56122870373B002B60A8 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD56112870373B002B60A8 /* HomeViewViewModel.swift */; };
+		FADD56142870375F002B60A8 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD56132870375F002B60A8 /* Observable.swift */; };
+		FADD56162870399D002B60A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FADD56152870399D002B60A8 /* GoogleService-Info.plist */; };
+		FADD561928703D74002B60A8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FADD561828703D74002B60A8 /* FirebaseAnalytics */; };
+		FADD561B28703D74002B60A8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FADD561A28703D74002B60A8 /* FirebaseAuth */; };
+		FADD561D28703D74002B60A8 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FADD561C28703D74002B60A8 /* FirebaseCrashlytics */; };
+		FADD561F28703D74002B60A8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FADD561E28703D74002B60A8 /* FirebaseDatabase */; };
+		FADD562128703D74002B60A8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FADD562028703D74002B60A8 /* FirebaseFirestore */; };
+		FADD562328703D74002B60A8 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FADD562228703D74002B60A8 /* FirebaseMessaging */; };
+		FADD562528703D74002B60A8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FADD562428703D74002B60A8 /* FirebaseStorage */; };
+		FADD562728704064002B60A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD562628704064002B60A8 /* LoginViewController.swift */; };
+		FADD562928704078002B60A8 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD562828704078002B60A8 /* LoginViewViewModel.swift */; };
+		FADD562B2871548E002B60A8 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD562A2871548E002B60A8 /* AuthManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADD55ED28703026002B60A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADD55CE28703026002B60A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADD55D528703026002B60A8;
+			remoteInfo = Vetzone;
+		};
+		FADD55F728703026002B60A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADD55CE28703026002B60A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADD55D528703026002B60A8;
+			remoteInfo = Vetzone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADD55D628703026002B60A8 /* Vetzone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vetzone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD55D928703026002B60A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADD55DB28703026002B60A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FADD55E028703026002B60A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADD55E228703026002B60A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADD55E528703026002B60A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADD55E728703026002B60A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADD55EC28703026002B60A8 /* VetzoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VetzoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD55F028703026002B60A8 /* VetzoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetzoneTests.swift; sourceTree = "<group>"; };
+		FADD55F628703026002B60A8 /* VetzoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VetzoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD55FA28703026002B60A8 /* VetzoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetzoneUITests.swift; sourceTree = "<group>"; };
+		FADD55FC28703026002B60A8 /* VetzoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetzoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FADD560F287036AF002B60A8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FADD56112870373B002B60A8 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		FADD56132870375F002B60A8 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		FADD56152870399D002B60A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FADD562628704064002B60A8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FADD562828704078002B60A8 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		FADD562A2871548E002B60A8 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADD55D328703026002B60A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD562328703D74002B60A8 /* FirebaseMessaging in Frameworks */,
+				FADD561D28703D74002B60A8 /* FirebaseCrashlytics in Frameworks */,
+				FADD561928703D74002B60A8 /* FirebaseAnalytics in Frameworks */,
+				FADD561F28703D74002B60A8 /* FirebaseDatabase in Frameworks */,
+				FADD562528703D74002B60A8 /* FirebaseStorage in Frameworks */,
+				FADD562128703D74002B60A8 /* FirebaseFirestore in Frameworks */,
+				FADD561B28703D74002B60A8 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD55E928703026002B60A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD55F328703026002B60A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADD55CD28703026002B60A8 = {
+			isa = PBXGroup;
+			children = (
+				FADD55D828703026002B60A8 /* Vetzone */,
+				FADD55EF28703026002B60A8 /* VetzoneTests */,
+				FADD55F928703026002B60A8 /* VetzoneUITests */,
+				FADD55D728703026002B60A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADD55D728703026002B60A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADD55D628703026002B60A8 /* Vetzone.app */,
+				FADD55EC28703026002B60A8 /* VetzoneTests.xctest */,
+				FADD55F628703026002B60A8 /* VetzoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADD55D828703026002B60A8 /* Vetzone */ = {
+			isa = PBXGroup;
+			children = (
+				FADD55D928703026002B60A8 /* AppDelegate.swift */,
+				FADD55DB28703026002B60A8 /* SceneDelegate.swift */,
+				FADD560E287034C5002B60A8 /* Managers */,
+				FADD560D287034BC002B60A8 /* Resources */,
+				FADD560928703470002B60A8 /* Model */,
+				FADD560A28703480002B60A8 /* View */,
+				FADD560B2870348A002B60A8 /* ViewModel */,
+				FADD560C28703497002B60A8 /* Storyboards */,
+				FADD55E228703026002B60A8 /* Assets.xcassets */,
+				FADD55E728703026002B60A8 /* Info.plist */,
+				FADD56152870399D002B60A8 /* GoogleService-Info.plist */,
+			);
+			path = Vetzone;
+			sourceTree = "<group>";
+		};
+		FADD55EF28703026002B60A8 /* VetzoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADD55F028703026002B60A8 /* VetzoneTests.swift */,
+			);
+			path = VetzoneTests;
+			sourceTree = "<group>";
+		};
+		FADD55F928703026002B60A8 /* VetzoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADD55FA28703026002B60A8 /* VetzoneUITests.swift */,
+				FADD55FC28703026002B60A8 /* VetzoneUITestsLaunchTests.swift */,
+			);
+			path = VetzoneUITests;
+			sourceTree = "<group>";
+		};
+		FADD560928703470002B60A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADD560A28703480002B60A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FADD560F287036AF002B60A8 /* HomeViewController.swift */,
+				FADD562628704064002B60A8 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FADD560B2870348A002B60A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FADD56112870373B002B60A8 /* HomeViewViewModel.swift */,
+				FADD562828704078002B60A8 /* LoginViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FADD560C28703497002B60A8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FADD55DF28703026002B60A8 /* Main.storyboard */,
+				FADD55E428703026002B60A8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FADD560D287034BC002B60A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FADD56132870375F002B60A8 /* Observable.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FADD560E287034C5002B60A8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FADD562A2871548E002B60A8 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADD55D528703026002B60A8 /* Vetzone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADD560028703026002B60A8 /* Build configuration list for PBXNativeTarget "Vetzone" */;
+			buildPhases = (
+				FADD55D228703026002B60A8 /* Sources */,
+				FADD55D328703026002B60A8 /* Frameworks */,
+				FADD55D428703026002B60A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vetzone;
+			packageProductDependencies = (
+				FADD561828703D74002B60A8 /* FirebaseAnalytics */,
+				FADD561A28703D74002B60A8 /* FirebaseAuth */,
+				FADD561C28703D74002B60A8 /* FirebaseCrashlytics */,
+				FADD561E28703D74002B60A8 /* FirebaseDatabase */,
+				FADD562028703D74002B60A8 /* FirebaseFirestore */,
+				FADD562228703D74002B60A8 /* FirebaseMessaging */,
+				FADD562428703D74002B60A8 /* FirebaseStorage */,
+			);
+			productName = Vetzone;
+			productReference = FADD55D628703026002B60A8 /* Vetzone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADD55EB28703026002B60A8 /* VetzoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADD560328703026002B60A8 /* Build configuration list for PBXNativeTarget "VetzoneTests" */;
+			buildPhases = (
+				FADD55E828703026002B60A8 /* Sources */,
+				FADD55E928703026002B60A8 /* Frameworks */,
+				FADD55EA28703026002B60A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADD55EE28703026002B60A8 /* PBXTargetDependency */,
+			);
+			name = VetzoneTests;
+			productName = VetzoneTests;
+			productReference = FADD55EC28703026002B60A8 /* VetzoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADD55F528703026002B60A8 /* VetzoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADD560628703026002B60A8 /* Build configuration list for PBXNativeTarget "VetzoneUITests" */;
+			buildPhases = (
+				FADD55F228703026002B60A8 /* Sources */,
+				FADD55F328703026002B60A8 /* Frameworks */,
+				FADD55F428703026002B60A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADD55F828703026002B60A8 /* PBXTargetDependency */,
+			);
+			name = VetzoneUITests;
+			productName = VetzoneUITests;
+			productReference = FADD55F628703026002B60A8 /* VetzoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADD55CE28703026002B60A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FADD55D528703026002B60A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FADD55EB28703026002B60A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FADD55D528703026002B60A8;
+					};
+					FADD55F528703026002B60A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FADD55D528703026002B60A8;
+					};
+				};
+			};
+			buildConfigurationList = FADD55D128703026002B60A8 /* Build configuration list for PBXProject "Vetzone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADD55CD28703026002B60A8;
+			packageReferences = (
+				FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = FADD55D728703026002B60A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADD55D528703026002B60A8 /* Vetzone */,
+				FADD55EB28703026002B60A8 /* VetzoneTests */,
+				FADD55F528703026002B60A8 /* VetzoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADD55D428703026002B60A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD55E628703026002B60A8 /* LaunchScreen.storyboard in Resources */,
+				FADD56162870399D002B60A8 /* GoogleService-Info.plist in Resources */,
+				FADD55E328703026002B60A8 /* Assets.xcassets in Resources */,
+				FADD55E128703026002B60A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD55EA28703026002B60A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD55F428703026002B60A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADD55D228703026002B60A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD562728704064002B60A8 /* LoginViewController.swift in Sources */,
+				FADD562B2871548E002B60A8 /* AuthManager.swift in Sources */,
+				FADD562928704078002B60A8 /* LoginViewViewModel.swift in Sources */,
+				FADD55DA28703026002B60A8 /* AppDelegate.swift in Sources */,
+				FADD56142870375F002B60A8 /* Observable.swift in Sources */,
+				FADD55DC28703026002B60A8 /* SceneDelegate.swift in Sources */,
+				FADD56122870373B002B60A8 /* HomeViewViewModel.swift in Sources */,
+				FADD5610287036AF002B60A8 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD55E828703026002B60A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD55F128703026002B60A8 /* VetzoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD55F228703026002B60A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD55FD28703026002B60A8 /* VetzoneUITestsLaunchTests.swift in Sources */,
+				FADD55FB28703026002B60A8 /* VetzoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADD55EE28703026002B60A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADD55D528703026002B60A8 /* Vetzone */;
+			targetProxy = FADD55ED28703026002B60A8 /* PBXContainerItemProxy */;
+		};
+		FADD55F828703026002B60A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADD55D528703026002B60A8 /* Vetzone */;
+			targetProxy = FADD55F728703026002B60A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADD55DF28703026002B60A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADD55E028703026002B60A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADD55E428703026002B60A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADD55E528703026002B60A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADD55FE28703026002B60A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADD55FF28703026002B60A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADD560128703026002B60A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD4QNU5MSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vetzone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetzone.Vetzone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADD560228703026002B60A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD4QNU5MSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vetzone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetzone.Vetzone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FADD560428703026002B60A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD4QNU5MSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetzone.VetzoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vetzone.app/Vetzone";
+			};
+			name = Debug;
+		};
+		FADD560528703026002B60A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD4QNU5MSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetzone.VetzoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vetzone.app/Vetzone";
+			};
+			name = Release;
+		};
+		FADD560728703026002B60A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD4QNU5MSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetzone.VetzoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vetzone;
+			};
+			name = Debug;
+		};
+		FADD560828703026002B60A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD4QNU5MSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetzone.VetzoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vetzone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADD55D128703026002B60A8 /* Build configuration list for PBXProject "Vetzone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD55FE28703026002B60A8 /* Debug */,
+				FADD55FF28703026002B60A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADD560028703026002B60A8 /* Build configuration list for PBXNativeTarget "Vetzone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD560128703026002B60A8 /* Debug */,
+				FADD560228703026002B60A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADD560328703026002B60A8 /* Build configuration list for PBXNativeTarget "VetzoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD560428703026002B60A8 /* Debug */,
+				FADD560528703026002B60A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADD560628703026002B60A8 /* Build configuration list for PBXNativeTarget "VetzoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD560728703026002B60A8 /* Debug */,
+				FADD560828703026002B60A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FADD561828703D74002B60A8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FADD561A28703D74002B60A8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FADD561C28703D74002B60A8 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FADD561E28703D74002B60A8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FADD562028703D74002B60A8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FADD562228703D74002B60A8 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FADD562428703D74002B60A8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FADD55CE28703026002B60A8 /* Project object */;
+}
