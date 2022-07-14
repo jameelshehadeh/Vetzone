@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1FBBA62875E018002DB5CE /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA1FBBA52875E018002DB5CE /* IQKeyboardManagerSwift */; };
+		FA1FBBA82875E40D002DB5CE /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FBBA72875E40D002DB5CE /* ActivityIndicator.swift */; };
+		FA1FBBAE2876C958002DB5CE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FBBAD2876C958002DB5CE /* ForgotPasswordViewController.swift */; };
+		FA1FBBB02876CE7D002DB5CE /* pawLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1FBBAF2876CE7D002DB5CE /* pawLoading.json */; };
+		FA1FBBB22878028F002DB5CE /* vetzoneServices.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1FBBB12878028F002DB5CE /* vetzoneServices.json */; };
+		FA1FBBB428781A7F002DB5CE /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FBBB328781A7F002DB5CE /* RegisterViewViewModel.swift */; };
+		FA1FBBB728781BC0002DB5CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FBBB628781BC0002DB5CE /* User.swift */; };
+		FA1FBBB9287A9FDD002DB5CE /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FBBB8287A9FDD002DB5CE /* FirestoreManager.swift */; };
+		FA243119287C57A200479BBA /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA243118287C57A200479BBA /* Alerts.swift */; };
+		FA24311B287C63F800479BBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24311A287C63F800479BBA /* Constants.swift */; };
+		FA24311D287C673E00479BBA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24311C287C673E00479BBA /* String+Extensions.swift */; };
+		FA901DF628734EAE00B270BF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FA901DF528734EAE00B270BF /* Lottie */; };
+		FA901DF8287364DA00B270BF /* dog-walking.json in Resources */ = {isa = PBXBuildFile; fileRef = FA901DF7287364DA00B270BF /* dog-walking.json */; };
+		FA9C6B2928740E3E0075039F /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C6B2828740E3E0075039F /* UITextField+Extensions.swift */; };
+		FA9C6B2B28740F1E0075039F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C6B2A28740F1E0075039F /* RegisterViewController.swift */; };
+		FA9C6B3528756A9F0075039F /* activityIndicator.json in Resources */ = {isa = PBXBuildFile; fileRef = FA9C6B3428756A9F0075039F /* activityIndicator.json */; };
+		FA9C6B3828756DB60075039F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C6B3728756DB60075039F /* Validation.swift */; };
 		FADD55DA28703026002B60A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD55D928703026002B60A8 /* AppDelegate.swift */; };
 		FADD55DC28703026002B60A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD55DB28703026002B60A8 /* SceneDelegate.swift */; };
 		FADD55E128703026002B60A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADD55DF28703026002B60A8 /* Main.storyboard */; };
@@ -49,6 +66,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA1FBBA72875E40D002DB5CE /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		FA1FBBAD2876C958002DB5CE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		FA1FBBAF2876CE7D002DB5CE /* pawLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pawLoading.json; sourceTree = "<group>"; };
+		FA1FBBB12878028F002DB5CE /* vetzoneServices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vetzoneServices.json; sourceTree = "<group>"; };
+		FA1FBBB328781A7F002DB5CE /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		FA1FBBB628781BC0002DB5CE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA1FBBB8287A9FDD002DB5CE /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		FA243118287C57A200479BBA /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		FA24311A287C63F800479BBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA24311C287C673E00479BBA /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		FA901DF7287364DA00B270BF /* dog-walking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dog-walking.json"; sourceTree = "<group>"; };
+		FA9C6B2828740E3E0075039F /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		FA9C6B2A28740F1E0075039F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FA9C6B3428756A9F0075039F /* activityIndicator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activityIndicator.json; sourceTree = "<group>"; };
+		FA9C6B3728756DB60075039F /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		FADD55D628703026002B60A8 /* Vetzone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vetzone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADD55D928703026002B60A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADD55DB28703026002B60A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,8 +112,10 @@
 				FADD561928703D74002B60A8 /* FirebaseAnalytics in Frameworks */,
 				FADD561F28703D74002B60A8 /* FirebaseDatabase in Frameworks */,
 				FADD562528703D74002B60A8 /* FirebaseStorage in Frameworks */,
+				FA1FBBA62875E018002DB5CE /* IQKeyboardManagerSwift in Frameworks */,
 				FADD562128703D74002B60A8 /* FirebaseFirestore in Frameworks */,
 				FADD561B28703D74002B60A8 /* FirebaseAuth in Frameworks */,
+				FA901DF628734EAE00B270BF /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +136,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1FBBAA2876C8C6002DB5CE /* ForgotPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FBBAD2876C958002DB5CE /* ForgotPasswordViewController.swift */,
+			);
+			path = ForgotPasswordView;
+			sourceTree = "<group>";
+		};
+		FA1FBBB528781BB8002DB5CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FBBB628781BC0002DB5CE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA1FBBBA287AB326002DB5CE /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA9C6B3428756A9F0075039F /* activityIndicator.json */,
+				FA901DF7287364DA00B270BF /* dog-walking.json */,
+				FA1FBBAF2876CE7D002DB5CE /* pawLoading.json */,
+				FA1FBBB12878028F002DB5CE /* vetzoneServices.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		FA9C6B2C287568970075039F /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				FA9C6B2D287568B70075039F /* View */,
+				FA9C6B2E287568C50075039F /* ViewModel */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		FA9C6B2D287568B70075039F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FADD560F287036AF002B60A8 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA9C6B2E287568C50075039F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FADD56112870373B002B60A8 /* HomeViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA9C6B2F287569140075039F /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				FA9C6B30287569230075039F /* View */,
+				FA9C6B312875692D0075039F /* ViewModel */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		FA9C6B30287569230075039F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FADD562628704064002B60A8 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA9C6B312875692D0075039F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FADD562828704078002B60A8 /* LoginViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA9C6B322875695E0075039F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FBBB328781A7F002DB5CE /* RegisterViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA9C6B332875696A0075039F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA9C6B2A28740F1E0075039F /* RegisterViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA9C6B3628756D8E0075039F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA9C6B3728756DB60075039F /* Validation.swift */,
+				FA1FBBA72875E40D002DB5CE /* ActivityIndicator.swift */,
+				FA243118287C57A200479BBA /* Alerts.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		FADD55CD28703026002B60A8 = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +264,15 @@
 			children = (
 				FADD55D928703026002B60A8 /* AppDelegate.swift */,
 				FADD55DB28703026002B60A8 /* SceneDelegate.swift */,
+				FA1FBBBA287AB326002DB5CE /* LottieFiles */,
+				FA9C6B3628756D8E0075039F /* Utils */,
 				FADD560E287034C5002B60A8 /* Managers */,
 				FADD560D287034BC002B60A8 /* Resources */,
 				FADD560928703470002B60A8 /* Model */,
-				FADD560A28703480002B60A8 /* View */,
-				FADD560B2870348A002B60A8 /* ViewModel */,
+				FA1FBBAA2876C8C6002DB5CE /* ForgotPasswordView */,
+				FA9C6B2F287569140075039F /* LoginView */,
+				FADD560A28703480002B60A8 /* RegisterView */,
+				FA9C6B2C287568970075039F /* HomeView */,
 				FADD560C28703497002B60A8 /* Storyboards */,
 				FADD55E228703026002B60A8 /* Assets.xcassets */,
 				FADD55E728703026002B60A8 /* Info.plist */,
@@ -164,22 +305,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FADD560A28703480002B60A8 /* View */ = {
+		FADD560A28703480002B60A8 /* RegisterView */ = {
 			isa = PBXGroup;
 			children = (
-				FADD560F287036AF002B60A8 /* HomeViewController.swift */,
-				FADD562628704064002B60A8 /* LoginViewController.swift */,
+				FA1FBBB528781BB8002DB5CE /* Model */,
+				FA9C6B332875696A0075039F /* View */,
+				FA9C6B322875695E0075039F /* ViewModel */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FADD560B2870348A002B60A8 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				FADD56112870373B002B60A8 /* HomeViewViewModel.swift */,
-				FADD562828704078002B60A8 /* LoginViewViewModel.swift */,
-			);
-			path = ViewModel;
+			path = RegisterView;
 			sourceTree = "<group>";
 		};
 		FADD560C28703497002B60A8 /* Storyboards */ = {
@@ -195,6 +328,9 @@
 			isa = PBXGroup;
 			children = (
 				FADD56132870375F002B60A8 /* Observable.swift */,
+				FA9C6B2828740E3E0075039F /* UITextField+Extensions.swift */,
+				FA24311C287C673E00479BBA /* String+Extensions.swift */,
+				FA24311A287C63F800479BBA /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -203,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				FADD562A2871548E002B60A8 /* AuthManager.swift */,
+				FA1FBBB8287A9FDD002DB5CE /* FirestoreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -231,6 +368,8 @@
 				FADD562028703D74002B60A8 /* FirebaseFirestore */,
 				FADD562228703D74002B60A8 /* FirebaseMessaging */,
 				FADD562428703D74002B60A8 /* FirebaseStorage */,
+				FA901DF528734EAE00B270BF /* Lottie */,
+				FA1FBBA52875E018002DB5CE /* IQKeyboardManagerSwift */,
 			);
 			productName = Vetzone;
 			productReference = FADD55D628703026002B60A8 /* Vetzone.app */;
@@ -306,6 +445,8 @@
 			mainGroup = FADD55CD28703026002B60A8;
 			packageReferences = (
 				FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FA901DF428734EAE00B270BF /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				FA1FBBA42875E018002DB5CE /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = FADD55D728703026002B60A8 /* Products */;
 			projectDirPath = "";
@@ -326,7 +467,11 @@
 				FADD55E628703026002B60A8 /* LaunchScreen.storyboard in Resources */,
 				FADD56162870399D002B60A8 /* GoogleService-Info.plist in Resources */,
 				FADD55E328703026002B60A8 /* Assets.xcassets in Resources */,
+				FA1FBBB22878028F002DB5CE /* vetzoneServices.json in Resources */,
 				FADD55E128703026002B60A8 /* Main.storyboard in Resources */,
+				FA9C6B3528756A9F0075039F /* activityIndicator.json in Resources */,
+				FA901DF8287364DA00B270BF /* dog-walking.json in Resources */,
+				FA1FBBB02876CE7D002DB5CE /* pawLoading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,13 +497,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADD562728704064002B60A8 /* LoginViewController.swift in Sources */,
+				FA9C6B2B28740F1E0075039F /* RegisterViewController.swift in Sources */,
+				FA9C6B3828756DB60075039F /* Validation.swift in Sources */,
 				FADD562B2871548E002B60A8 /* AuthManager.swift in Sources */,
+				FA1FBBA82875E40D002DB5CE /* ActivityIndicator.swift in Sources */,
 				FADD562928704078002B60A8 /* LoginViewViewModel.swift in Sources */,
+				FA1FBBB428781A7F002DB5CE /* RegisterViewViewModel.swift in Sources */,
 				FADD55DA28703026002B60A8 /* AppDelegate.swift in Sources */,
+				FA1FBBB728781BC0002DB5CE /* User.swift in Sources */,
 				FADD56142870375F002B60A8 /* Observable.swift in Sources */,
+				FA243119287C57A200479BBA /* Alerts.swift in Sources */,
 				FADD55DC28703026002B60A8 /* SceneDelegate.swift in Sources */,
+				FA9C6B2928740E3E0075039F /* UITextField+Extensions.swift in Sources */,
+				FA1FBBAE2876C958002DB5CE /* ForgotPasswordViewController.swift in Sources */,
 				FADD56122870373B002B60A8 /* HomeViewViewModel.swift in Sources */,
+				FA24311D287C673E00479BBA /* String+Extensions.swift in Sources */,
 				FADD5610287036AF002B60A8 /* HomeViewController.swift in Sources */,
+				FA1FBBB9287A9FDD002DB5CE /* FirestoreManager.swift in Sources */,
+				FA24311B287C63F800479BBA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -518,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -541,8 +697,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortraitUpsideDown;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,8 +726,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortraitUpsideDown;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -702,6 +860,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		FA1FBBA42875E018002DB5CE /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA901DF428734EAE00B270BF /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -713,6 +887,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FA1FBBA52875E018002DB5CE /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1FBBA42875E018002DB5CE /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		FA901DF528734EAE00B270BF /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA901DF428734EAE00B270BF /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
 		FADD561828703D74002B60A8 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FADD561728703D74002B60A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

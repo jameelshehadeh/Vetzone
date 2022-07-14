@@ -13,7 +13,7 @@ class LoginViewViewModel {
     
     //Check if user already is signed in
     func checkUserAuthStatus(){
-        guard let _ = UserDefaults.standard.value(forKey: "email") as? String, AuthManager.shared.userAuthStatus() == true else {
+        guard let _ = UserDefaults.standard.value(forKey: "email") as? String, AuthManager.shared.authUserStatus() == true else {
             isSignedIn.value = false
             return
         }
@@ -21,13 +21,15 @@ class LoginViewViewModel {
     }
     
     //Sign the user in
-    func loginUser(email: String, password: String) {
+    func loginUser(email: String, password: String, completion: @escaping (Bool)->()) {
         AuthManager.shared.loginUser(email: email, password: password) { [weak self] success in
             guard success == true else {
+                completion(false)
                 return
             }
             self?.isSignedIn.value = success
             UserDefaults.standard.set(email, forKey: "email")
+            completion(success)
         }
     }
     

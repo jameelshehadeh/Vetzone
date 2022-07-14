@@ -17,15 +17,16 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
     }
-    
+
     @IBAction func logoutPressed(_ sender: UIBarButtonItem) {
         AuthManager.shared.logoutUser { [weak self] success in
             guard success == true else {
                 return
             }
-            self?.dismiss(animated: true)
+            guard let vc = self?.storyboard?.instantiateViewController(withIdentifier: "LoginNavigationController") else {return}
+            vc.modalPresentationStyle = .fullScreen
+            self?.present(vc, animated: true)
         }
     }
-    
         
 }

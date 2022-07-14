@@ -20,22 +20,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
 //        window?.tintColor = .cyan
         
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        
-//        // Check if user is signed in
-//        if isUserSignedIn == true {
-//            let tabBar = storyboard.instantiateViewController(withIdentifier: "MainTabbarController")
-//            window?.rootViewController = tabBar
-//            
-//        }
-//        
-//        else {
-//            
-//            let tabBar = storyboard.instantiateViewController(withIdentifier: "LoginNavigationController")
-//            window?.rootViewController = tabBar
-//            
-//        }
-        
         
     }
 
